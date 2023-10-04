@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       /* body{
+        background: linear-gradient(to top right , blue , orange);
+        height: 100%;
+        width: 100%;
+
+       } */
+        form{
+            border: 1px solid black;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 8rem;
+            background: linear-gradient(to top right , blue , orange);
+            
+        }
+       label{
+        margin-right: 24px;
+        color: aliceblue;
+        text-transform: capitalize;
+        text-align: justify;
+           }
+       button{
+        padding: 10px;
+        border-radius: 10px;
+        color: aliceblue;
+        background: linear-gradient( to bottom left ,rgba(184, 136, 83, 0.692) , rgb(104, 109, 179));
+        
+        margin-top: 30px;
+        outline: none;
+       }
+       .passn{
+        margin-top:50px ;
+       }
+       input{
+        height: 28px;
+        background: transparent;
+        border-radius: 6px;
+        border: 1.2px solid wheat;
+        outline: none;
+       }
+       .mirror{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: radial-gradient( rgba(245, 222, 179, 0.144), rgba(127, 161, 156, 0.705));
+        padding: 40px;
+        border-radius: 10px;
+       }
+       ::placeholder{
+        color: aliceblue;
+       }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form action="" >
+            <div class="mirror">
+            <div class="usern">
+                <label for="">User Name</label>
+                <input type="text" placeholder=" user name">
+            </div>
+          
+            <br>
+            <div class="passn">
+                <label for="">Password</label>
+                <input type="password" placeholder="  type the password">
+            </div>
+           
+            <br>
+            <button type="submit">LOG IN</button>
+            <br>
+            </div>
+
+            
+        </form>
+    </div>
+    
+</body>
+</html>
